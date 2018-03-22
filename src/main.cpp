@@ -263,9 +263,9 @@ int main() {
             
             bool too_close=false;
             // initialize the  distance of cars in left, centre and right lane. This would be used to calculate minimum distance later on
-            double centre_distance = 100;
-            double left_distance = 100;
-            double right_distance = 100;
+            double centre_distance = 75;
+            double left_distance = 75;
+            double right_distance = 75;
             
             // loop over the sensor fusion data
             for(int i=0; i<sensor_fusion.size();i++)
